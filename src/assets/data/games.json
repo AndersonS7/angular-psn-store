@@ -84,12 +84,30 @@
           },
           {
             "id": 10,
-            "title": "Grand Theft Auto: San Andreas.jpg",
+            "title": "Grand Theft Auto: San Andreas",
             "cover": "assets/imgs/GTA.jpg",
             "label": "disc",
             "console": "ps2 | ps4 | ps5",
             "priceLabel": "expansion",
             "price": 19.99
+          },
+          {
+            "id": 10,
+            "title": "Battlefileld 1",
+            "cover": "assets/imgs/bt-1.jpg",
+            "label": "digital",
+            "console": "ps4 | ps5",
+            "priceLabel": "expansion",
+            "price": 39.99
+          },
+          {
+            "id": 10,
+            "title": "Battlefileld 5",
+            "cover": "assets/imgs/bt-5.jpg",
+            "label": "digital",
+            "console": "ps4 | ps5",
+            "priceLabel": "full game",
+            "price": 69.99
           }
     ]
 }

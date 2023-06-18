@@ -7,12 +7,11 @@ import gamesJSON from '../../../assets/data/games.json';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  
+
   games: any
   constructor() { }
 
   ngOnInit(): void {
     this.games = gamesJSON.games
   }
-
 }

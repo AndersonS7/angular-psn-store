@@ -1,5 +1,6 @@
 <div class="home__container" >
-    <app-card *ngFor="let game of games; let i = index" [indexNum]=i></app-card>
+    <app-card [gameList]="games" *ngFor="let game of games; let i = index" [indexNum]=i></app-card>
+    
     <!-- 
     <app-card 
     gameCover="assets/imgs/bt-5.jpg" 

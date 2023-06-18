@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import gamesJSON from '../../../assets/data/games.json';
 
 @Component({
   selector: 'app-card',
@@ -13,28 +12,27 @@ export class CardComponent implements OnInit {
   @Input()
   gameLabel: string = ""
   @Input()
-  gameType: string = "XPTO | PS4"
+  gameType: string = ""
   @Input()
   gamePrice: string = ""
   @Input()
-  gamePriceLabel: string = "Play in Now"
+  gamePriceLabel: string = ""
 
-  games: any
-
+  //recebendo do componente pai
+  @Input()
+  gameList: any
+  
   @Input()
   indexNum = 0
-
+  
   constructor() {
   }
 
   ngOnInit(): void {
-    if (gamesJSON) {
-      this.games = gamesJSON.games
-      this.gameCover = gamesJSON.games[this.indexNum].cover
-      this.gameLabel = gamesJSON.games[this.indexNum].label
-      this.gameType = gamesJSON.games[this.indexNum].console
-      this.gamePrice = 'R$ ' + gamesJSON.games[this.indexNum].price.toString()
-      this.gamePriceLabel = gamesJSON.games[this.indexNum].priceLabel
-    }
+    this.gameCover = this.gameList[this.indexNum].cover
+    this.gameLabel = this.gameList[this.indexNum].label
+    this.gameType = this.gameList[this.indexNum].console
+    this.gamePrice = 'R$ ' + this.gameList[this.indexNum].price.toString()
+    this.gamePriceLabel = this.gameList[this.indexNum].priceLabel
   }
 }
