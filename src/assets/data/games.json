@@ -1,0 +1,95 @@
+{
+    "title": "PlayStation store games",
+    "games": [
+        {
+            "id" : 1,
+            "title": "The Last of Us Part II",
+            "cover": "assets/imgs/the last of us part II.png",
+            "label": "disc",
+            "console": "ps4",
+            "priceLabel": "premium edition",
+            "price": 59.99
+          },
+          {
+            "id": 2,
+            "title": "Demon's Souls",
+            "cover": "assets/imgs/Demon's Souls Cover.jpg",
+            "label": "disc",
+            "console": "ps5",
+            "priceLabel": "Pre-order",
+            "price": 69.99
+          },
+          {
+            "id": 3,
+            "title": "God of War",
+            "cover": "assets/imgs/God of War Ragnarök.jpg",
+            "label": "digital",
+            "console": "ps4",
+            "priceLabel": "full game",
+            "price": 19.99
+          },
+          {
+            "id": 4,
+            "title": "Ratchet & Clank: Rift Apart",
+            "cover": "assets/imgs/riftapart.jpg",
+            "label": "disc",
+            "console": "ps5",
+            "priceLabel": "full game",
+            "price": 69.99
+          },
+          {
+            "id": 5,
+            "title": "Marvel's Spider-Man: Miles Morales",
+            "cover": "assets/imgs/spider-man.jpg",
+            "label": "digital",
+            "console": "ps5",
+            "priceLabel": "Pre-order",
+            "price": 49.99
+          },
+          {
+            "id": 6,
+            "title": "Horizon Forbidden West",
+            "cover": "assets/imgs/horizon.png",
+            "label": "disc",
+            "console": "ps5",
+            "priceLabel": "Pre-order",
+            "price": 59.99
+          },
+          {
+            "id": 7,
+            "title": "Ghost of Tsushima",
+            "cover": "assets/imgs/Ghost of tsuname.jpg",
+            "label": "disc",
+            "console": "ps4",
+            "priceLabel": "premium edition",
+            "price": 49.99
+          },
+          {
+            "id": 8,
+            "title": "Bloodborne",
+            "cover": "assets/imgs/Bloodborne.jpg",
+            "label": "digital",
+            "console": "ps4",
+            "priceLabel": "premium edition",
+            "price": 19.99
+          },
+          {
+            "id": 9,
+            "title": "Shadow of the Colossus",
+            "cover": "assets/imgs/shadow of the colossus.png",
+            "label": "disc",
+            "console": "ps2 | ps4 | ps5",
+            "priceLabel": "expansion",
+            "price": 29.99
+          },
+          {
+            "id": 10,
+            "title": "Grand Theft Auto: San Andreas.jpg",
+            "cover": "assets/imgs/GTA.jpg",
+            "label": "disc",
+            "console": "ps2 | ps4 | ps5",
+            "priceLabel": "expansion",
+            "price": 19.99
+          }
+    ]
+}

@@ -11,6 +11,8 @@ export class CardPrincingComponent implements OnInit {
   gameType: string = "Digital PS4"
   @Input()
   gamePrice: string = "R$ 399,90"
+  @Input()
+  gamePriceLabel: string = "Play in Now"
   constructor() { }
 
   ngOnInit(): void {

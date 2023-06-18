@@ -1,10 +1,10 @@
 .home__container {
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding-top: 50px;
     
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
 }
