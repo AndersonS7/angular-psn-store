@@ -108,6 +108,15 @@
             "console": "ps4 | ps5",
             "priceLabel": "full game",
             "price": 69.99
+          },
+          {
+            "id": 11,
+            "title": "Qualquer coisa aqui",
+            "cover": "assets/imgs/bt-5.jpg",
+            "label": "digital",
+            "console": "TESTE",
+            "priceLabel": "TESTE",
+            "price": 120222
           }
     ]
 }
